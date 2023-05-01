@@ -616,3 +616,31 @@ img {
 .modal-close-btn:focus {
   border-color: var(--accent);
 }
+
+/* BOOOKING-FORM  */
+.booking section {
+}
+.modal-title {
+}
+.modal-form {
+}
+
+.booking-form-wrapper {
+}
+/* FORM-ELEMENTS */
+.modal-form-label {
+}
+.modal-form-field {
+}
+.modal-form-input {
+}
+.modal-form-icon {
+}
+
+.modal-form-message {
+}
+/* SEND BTN */
+.btn {
+}
+.btn-form {
+}

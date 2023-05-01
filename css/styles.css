@@ -472,6 +472,65 @@ img {
 .foo-social-media-svg {
   fill: var(--light);
 }
+
+.foo-form-block {
+}
+.foo-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+/* FOOTER-FORM */
+.foo-form {
+}
+.foo-form-field {
+  margin-top: 16px;
+  display: flex;
+  gap: 24px;
+}
+.foo-form-input {
+  border: 1px solid #ffffff;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  color: #ffffff;
+  background: var(--dark);
+}
+.foo-form-input::placeholder {
+  color: #ffffff;
+  opacity: 1;
+}
+.foo-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 24px;
+  gap: 16px;
+  background: #4d5ae5;
+  border-radius: 4px;
+}
+.foo-btn-caption {
+  width: 77px;
+  height: 24px;
+
+  /* Button Text */
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+}
 /* PORTFOLIO PAGE */
 .main-section {
   padding: 96px 0 120px 0;

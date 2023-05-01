@@ -706,8 +706,16 @@ img {
   height: 120px;
 }
 .modal-form-icon {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  pointer-events: none;
 }
-
+.modal-form-input:focus + .modal-form-icon {
+  fill: var(--pressed-state);
+}
 .modal-form-message {
 }
 
@@ -771,18 +779,11 @@ img {
   height: 56px;
 }
 .btn-caption {
-  width: 105px;
-  height: 24px;
-
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-
-  display: flex;
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.04em;
 
   color: #ffffff;

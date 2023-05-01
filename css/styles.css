@@ -618,9 +618,13 @@ img {
 }
 
 /* BOOOKING-FORM  */
-.booking section {
-}
+
 .modal-title {
+  position: absolute;
+  width: 360px;
+  height: 24px;
+  left: 24px;
+  top: 72px;
 }
 .modal-form {
 }
@@ -629,18 +633,98 @@ img {
 }
 /* FORM-ELEMENTS */
 .modal-form-label {
+  position: absolute;
 }
 .modal-form-field {
+  position: absolute;
 }
 .modal-form-input {
+  width: 360px;
+  height: 40px;
+}
+.modal-form-message {
+  width: 360px;
+  height: 120px;
 }
 .modal-form-icon {
 }
 
 .modal-form-message {
 }
+
+.user-label {
+  left: 24px;
+  top: 112px;
+}
+.user-field {
+  left: 24px;
+  top: 130px;
+}
+.phone-label {
+  left: 24px;
+  top: 178px;
+}
+.phone-field {
+  left: 24px;
+  top: 196px;
+}
+.email-label {
+  left: 24px;
+  top: 244px;
+}
+.email-field {
+  left: 24px;
+  top: 262px;
+}
+.comment-label {
+  left: 24px;
+  top: 310px;
+}
+.comment-field {
+  left: 24px;
+  top: 328px;
+  width: 360px;
+  height: 120px;
+}
+.checkbox-label {
+  left: 48px;
+  top: 464px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.04em;
+}
+.checkbox-field {
+  left: 24px;
+  top: 464px;
+}
 /* SEND BTN */
 .btn {
+  position: absolute;
 }
 .btn-form {
+  background-color: var(--primary-brand);
+  left: 119px;
+  top: 504px;
+  width: 169px;
+  height: 56px;
+}
+.btn-caption {
+  width: 105px;
+  height: 24px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+
+  color: #ffffff;
 }

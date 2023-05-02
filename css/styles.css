@@ -684,6 +684,15 @@ img {
   height: 24px;
   left: 24px;
   top: 72px;
+
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 .modal-form {
 }
@@ -692,6 +701,15 @@ img {
 }
 /* FORM-ELEMENTS */
 .modal-form-label {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+
+  letter-spacing: 0.01em;
+
+  color: #8e8f99;
   position: absolute;
 }
 .modal-form-field {

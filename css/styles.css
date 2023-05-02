@@ -703,6 +703,7 @@ img {
 }
 
 .booking-form-wrapper {
+  margin-bottom: 16px;
 }
 /* FORM-ELEMENTS */
 .modal-form-label {
@@ -736,9 +737,12 @@ img {
 }
 
 .modal-form-message {
+  display: block;
+  resize: none;
   width: 360px;
   height: 120px;
   border-radius: 4px;
+  padding: 8px 16px;
 }
 
 .modal-form-input:focus + .modal-form-icon {
@@ -761,12 +765,11 @@ img {
 }
 /* SEND BTN */
 .btn {
-  /* position: absolute; */
 }
 .btn-form {
+  display: block;
   background-color: var(--primary-brand);
-  /* left: 119px;
-  top: 504px; */
+
   width: 169px;
   height: 56px;
 }

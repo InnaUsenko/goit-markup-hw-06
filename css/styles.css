@@ -673,15 +673,13 @@ img {
 
 .modal-close-btn:hover,
 .modal-close-btn:focus {
+  background: var(--pressed-state);
   border-color: var(--accent);
 }
 
-.modal-close-btn-icon {
-  transition: fill var(--tr-dur-func);
-}
-.modal-close-btn-icon:hover,
-.modal-close-btn-icon:focus {
-  fill: var(--pressed-state);
+.modal-close-btn:hover .modal-close-btn-icon,
+.modal-close-btn:focus .modal-close-btn-icon {
+  fill: var(--white-background);
 }
 /* BOOOKING-FORM  */
 
@@ -725,10 +723,6 @@ img {
 .modal-form-input {
   width: 360px;
   height: 40px;
-}
-.modal-form-message:focus-visible,
-.modal-form-input:focus-visible {
-  border: 1px solid var(--pressed-state);
 }
 .modal-form-message {
   width: 360px;

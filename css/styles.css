@@ -689,6 +689,7 @@ img {
 .booking-form-wrapper {
   margin-bottom: 16px;
 }
+
 /* FORM-ELEMENTS */
 .modal-form-label {
   display: block;
@@ -729,6 +730,15 @@ img {
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
   padding: 8px 16px;
+}
+.modal-form-message::placeholder {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.04em;
+  color: rgba(46, 47, 66, 0.4);
 }
 
 .modal-form-input:focus,

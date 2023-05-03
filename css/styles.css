@@ -19,10 +19,6 @@ body {
   background-color: var(--white-background);
   color: var(--text);
 }
-.body-main-page {
-}
-.body-portfolio {
-}
 
 *,
 *:before,
@@ -154,10 +150,6 @@ img {
   display: flex;
   gap: 40px;
 }
-.t-mail {
-}
-.t-phone {
-}
 
 /* HERO IMAGE -  SECTION 1 */
 .hero-image {
@@ -285,9 +277,6 @@ img {
   padding: 0px;
 }
 
-.rectangle71 {
-}
-
 /* SECTION 4 */
 .section-three {
   padding-top: 120px;
@@ -403,8 +392,6 @@ img {
   padding-bottom: 100px;
   background: var(--dark);
 }
-.foo-text {
-}
 .foo-logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
@@ -434,10 +421,7 @@ img {
   align-items: baseline;
   gap: 120px;
 }
-.foo-content {
-}
-.foo-social-media {
-}
+
 .foo-social-media-p {
   font-weight: 500;
   font-size: 16px;
@@ -473,8 +457,6 @@ img {
   fill: var(--light);
 }
 
-.foo-form-block {
-}
 .foo-title {
   font-weight: 500;
   font-size: 16px;
@@ -547,8 +529,7 @@ img {
   margin-bottom: 72px;
   gap: 24px;
 }
-.filters-item {
-}
+
 .filter-btn {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
@@ -595,8 +576,7 @@ img {
   position: relative;
   overflow: hidden;
 }
-.portfolio-img {
-}
+
 .overlay {
   background-color: var(--primary-brand);
   color: var(--light);
@@ -704,8 +684,6 @@ img {
   text-align: center;
   letter-spacing: 0.02em;
   color: #2e2f42;
-}
-.modal-form {
 }
 
 .booking-form-wrapper {
@@ -823,8 +801,7 @@ input[type='checkbox']:checked
   color: var(--primary-brand);
 }
 /* SEND BTN */
-.btn {
-}
+
 .btn-form {
   display: block;
   margin: 0 auto;

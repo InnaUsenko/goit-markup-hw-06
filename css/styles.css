@@ -419,9 +419,15 @@ img {
 .foo-conteiner {
   display: flex;
   align-items: baseline;
-  gap: 120px;
 }
 
+.foo-content {
+  margin-right: 120px;
+}
+
+.foo-social-media {
+  margin-right: 80px;
+}
 .foo-social-media-p {
   font-weight: 500;
   font-size: 16px;

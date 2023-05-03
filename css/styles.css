@@ -749,10 +749,7 @@ img {
 /* CHECK-BOX */
 .modal-form-agreement {
   display: flex;
-  justify-content: center;
   align-items: center;
-  gap: 8px;
-  margin-left: -24px;
   margin-bottom: 24px;
 }
 .modal-form-agreement-box {
@@ -794,8 +791,8 @@ input[type='checkbox']:checked
   line-height: 14px;
 
   letter-spacing: 0.04em;
-
   color: #8e8f99;
+  margin-left: 8px;
 }
 .modal-form-agreement-link {
   color: var(--primary-brand);
